@@ -1,0 +1,12 @@
+diff --git a/node_modules/react-native/index.js b/node_modules/react-native/index.js
+index 7149c64..8c6bfa8 100644
+--- a/node_modules/react-native/index.js
++++ b/node_modules/react-native/index.js
+@@ -675,6 +675,7 @@ if (__DEV__) {
+         'Picker has been removed from React Native. ' +
+           "It can now be installed and imported from '@react-native-picker/picker' instead of 'react-native'. " +
+           'See https://github.com/react-native-picker/picker',
++          return require('@react-native-picker/picker')
+       );
+     },
+   });
